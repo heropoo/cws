@@ -1,0 +1,18 @@
+{
+  "name": "heropoo/cws",
+  "description": "Chinese Word Segmentation",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "heropoo",
+      "email": "aiyouyou1000@163.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Moon\\CWS\\": "src"
+    }
+  }
+}
