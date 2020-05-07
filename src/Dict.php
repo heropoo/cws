@@ -10,6 +10,18 @@ class Dict implements \JsonSerializable
 {
     protected $words = [];
 
+    public function __construct($filename = null)
+    {
+        if (isset($filename)) {
+            $this->import($filename);
+        }
+    }
+
+    public function getWords()
+    {
+        return $this->words;
+    }
+
     /**
      * Add a word to the Dict
      * @param string $word

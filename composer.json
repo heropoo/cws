@@ -9,10 +9,19 @@
       "email": "aiyouyou1000@163.com"
     }
   ],
-  "require": {},
+  "require": {
+    "ext-mbstring": "*",
+    "ext-json": "*"
+  },
   "autoload": {
     "psr-4": {
       "Moon\\CWS\\": "src"
-    }
+    },
+    "files": [
+      "src/helpers.php"
+    ]
+  },
+  "require-dev": {
+
   }
 }
